@@ -1,7 +1,7 @@
 body {
     background: #fff;
     font-family: "Open Sans", "Helvetica Neue", "Arial", "Verdana";
-  
+
 
 }
 
@@ -81,8 +81,8 @@ img {
 }
 
 
-  /* On mouse-over */
-  .btn:hover {
+/* On mouse-over */
+.btn:hover {
     background: rgb(15, 5, 158);
 }
 

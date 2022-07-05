@@ -1,8 +1,6 @@
 body {
     background: #fff;
     font-family: "Open Sans", "Helvetica Neue", "Arial", "Verdana";
-
-
 }
 
 img {
@@ -35,11 +33,9 @@ img {
     padding-bottom: 1%;
 }
 
-
 .form-group {
     margin-bottom: 1rem;
 }
-
 
 .divforimg {
     background-image: url("Navy Minimalist Letter B Logo.jpg");
@@ -50,19 +46,13 @@ img {
     display: inline-block;
     margin-top: 103px;
     background-color: #fff;
-
-
 }
-
-
 
 .divfortext {
     float: right;
     height: 100%;
     width: 70%;
     background-size: contain;
-    /* background-color: #000000; */
-
 }
 
 
@@ -85,12 +75,6 @@ img {
 .btn:hover {
     background: rgb(15, 5, 158);
 }
-
-
-
-
-
-
 
 .cssele {
     width: 313px;

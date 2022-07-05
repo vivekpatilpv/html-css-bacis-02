@@ -1,0 +1,107 @@
+body {
+    background: #fff;
+    font-family: "Open Sans", "Helvetica Neue", "Arial", "Verdana";
+  
+
+}
+
+img {
+    margin-top: 0px;
+    width: 34px;
+    height: 34px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    margin-bottom: -10px;
+}
+
+.label {
+    color: #122f4c;
+    font-weight: 600;
+    margin-bottom: 4px;
+    padding: 8px 16px;
+}
+
+.card {
+    border-radius: .375rem;
+    padding: 10% 25%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding-top: 3.5%;
+    line-height: 24px;
+    font-size: 14px;
+    padding-bottom: 1%;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+.divforimg {
+    background-image: url("Navy Minimalist Letter B Logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 57vh;
+    display: inline-block;
+    margin-top: 103px;
+    background-color: #fff;
+
+
+}
+
+
+
+.divfortext {
+    float: right;
+    height: 100%;
+    width: 70%;
+    background-size: contain;
+    /* background-color: #000000; */
+
+}
+
+
+.btn {
+    border-radius: .25rem;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.375;
+    padding: 8px 20px;
+    display: block;
+    width: 100%;
+    background-color: #1d539f;
+    border-color: #0d3f86;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+  /* On mouse-over */
+  .btn:hover {
+    background: rgb(15, 5, 158);
+}
+
+
+
+
+
+
+
+.cssele {
+    width: 313px;
+    height: 32px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-left: 11px;
+    padding-right: 4px;
+    border-top-style: solid;
+}
+
+.gmail {
+    margin-left: 32px;
+}

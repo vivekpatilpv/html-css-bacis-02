@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="divforimg">  </div>
+    <div class="divfortext">
+        <div class="card">
+            <img src="https://icons.iconarchive.com/icons/google/noto-emoji-people-bodyparts/512/12050-waving-hand-icon.png"
+                alt="">
+            <h2 style="display: inline-block;">Help us improve</h2>
+            <div class="form-group ">
+                <label class="label" for="user_first_name">First Name</label>
+                <input class="input cssele" required="required" autofocus="autofocus"
+                    placeholder="What should we call you?" type="text" id="user_first_name">
+            </div>
+
+
+<form action="#">
+
+    <div class="form-group ">
+        <label class="label" for="user_last_name">Last Name</label>
+        <input class="input cssele" required="required" placeholder="Great developer have great last names!"
+            type="text" id="user_last_name">
+    </div>
+
+
+    <div class="form-group ">
+        <label class="label" for="user_email">Email</label>
+        <input class="input cssele gmail" required="required" placeholder="you@your-domain.com" type="text"
+            value="" id="user_email">
+    </div>
+
+    <div class="form-group">
+        <label class="bold">Which Option best describes your current role? </label>
+        <select name="Role" id="role" required>
+            <option value="#">--Select Option--</option>
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="software Engineer">Software Engineer</option>
+            <option value="data Scientist">Data Scientist</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <p>How Likely you would recommend this WebDevBootcamp to a friend :</p>
+
+    <div>
+        <input type="radio" name="recommend" id="rd_1" value="definitely"> <label for="rd_1"> Definitely</label>
+
+        <input type="radio" name="recommend" id="rd_2" value="maybe"> <label for="rd_2">Maybe</label>
+
+        <input type="radio" name="recommend" id="rd_3" value="not sure"> <label for="rd_3">Not Sure</label>
+    </div>
+
+    <p>Things that should be improved in the future (Check all that apply):</p>
+    <div>
+
+        <input type="checkbox" id="frontend" value="front_end">
+        <label for="frontend">Front-end Projects</label>
+
+
+        <input type="checkbox" id="backend" value="back_end">
+        <label for="backend">Back-end Projects</label>
+
+
+        <input type="checkbox" id="dt" value="data_visualization">
+        <label for="dt">Data Visualization</label>
+    </div>
+    <br>
+    <hr>
+    <div class="form-group">
+        <input type="checkbox" value="1">
+        <label>Notify me about upcoming events &amp; news.</label>
+    </div>
+    <div class="form-group">
+        <input type="checkbox" value="1" checked="checked">
+        <label>Receive personal follow-up to your feedback</label>
+    </div>
+
+    <div class="actions">
+        <button type="submit" class="btn">Submit feedback</button>
+    </div>
+</div>
+
+
+</form>
+
+
+
+    </div>
+</body>
+
+</html>
